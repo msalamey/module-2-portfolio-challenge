@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    color: aqua;
+    background-color: darkblue;
+    padding: 20px;
+}
+
+Nav {
+    background-color: lightsalmon;
+    font-size: 20px;
+    text-align: right; 
+}
+
+main {
+    line-height: .75;
+    background-color: aliceblue;
+}
+
+.images {
+    max-inline-size: 90%; 
+    padding: 10px;
+    border: 8px; 
+    border-style: solid;
+    border-color: lightblue;
+    border-radius: 3%;
+    box-shadow: 8px 8px 5px; color: rgb(40, 40, 138);
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    nav, main, .projects {
+        flex-direction: column;
+    }
+    main {background-color: cornflowerblue;}
+}
