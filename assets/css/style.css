@@ -14,11 +14,28 @@ Nav {
     text-align: right; 
 }
 
+Nav a {
+    Padding: 14px 20px;
+}
+
 main {
     line-height: .75;
     background-color: aliceblue;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: darkblue;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background-color: aliceblue;
+    padding: 10px
+}
 .images {
     max-inline-size: 90%; 
     padding: 10px;
@@ -26,8 +43,13 @@ main {
     border-style: solid;
     border-color: lightblue;
     border-radius: 3%;
-    box-shadow: 8px 8px 5px; color: rgb(40, 40, 138);
+    box-shadow: 8px 8px 5px; color: rgba(58, 59, 73, 0.281);
     display: flex;
+    margin: 20px
+}
+
+.images:hover {
+    color: darkblue
 }
 
 @media screen and (max-width: 768px) {
