@@ -1,4 +1,4 @@
-# module-2-portfolio-challenge
+# Module-2-Portfolio-Challenge
 
 In this assignment I created a website displaying projects that could be viewed by a potential employer to review my deployed portfolio of work samples. 
 
