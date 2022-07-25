@@ -31,8 +31,10 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-    nav, main, .projects {
+    nav, main {
         flex-direction: column;
     }
     main {background-color: cornflowerblue;}
+    header {background-color: darkmagenta;}
+    nav {background-color: aquamarine;}
 }
